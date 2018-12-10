@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -28,11 +29,21 @@
 }
 
 .displayBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #eee;
+  font-size: 3em;
+  font-weight: bold;
   height: 300px;
   width: 300px;
   padding: 20px;
   margin: 25px;
+}
+
+.container {
+    display: flex;
+
 }
 
 body {

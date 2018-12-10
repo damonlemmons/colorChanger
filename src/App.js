@@ -14,11 +14,15 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React Text Color Changer</h1>
+          <h1 className="App-title">Welcome to Color Box!</h1>
           <p>Click the box to change the color of the text!
           </p>
         </header>
-        <Box />
+        <div className="container">
+            <Box />
+            <Box />
+            <Box />
+        </div>
       </div>
     );
   }
